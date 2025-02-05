@@ -5,19 +5,19 @@
 
 .sidebar-container {
   width: 300px; /* Largura da Sidebar */
-  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #121212;
   overflow-y: auto; /* Adiciona scroll se o conteúdo for muito longo */
+  margin: 15px 15px 0 15px
 }
 
 .main-container {
   flex: 1;
-  margin-left: 300px; /* Espaço para a Sidebar */
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .main-content {
