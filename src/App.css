@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar-container {
+  width: 300px; /* Largura da Sidebar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #121212;
+  overflow-y: auto; /* Adiciona scroll se o conteúdo for muito longo */
+}
+
+.main-container {
+  flex: 1;
+  margin-left: 300px; /* Espaço para a Sidebar */
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #181818;
+}
